@@ -27,40 +27,42 @@ It is designed for bug bounty hunters, pentesters, and security enthusiasts to p
 git clone https://github.com/OsintMen/reconx.git
 cd reconx
 ```
+## Install required packages
 
-2.Install required packages
-
+```bash
 pip3 install -r requirements.txt
+```
+## 🚀 Usage
 
-🚀 Usage
-
-Quick Scan (IP only)
-
+**Quick Scan (IP only)**
+```bash
 python3 reconx.py example.com  
+```
+**Full Scan (headers, SSL, ports, directories)**
 
-Full Scan (headers, SSL, ports, directories)
-
+```bash
 python3 reconx.py example.com --full
+```
+**Save Results to JSON**
 
-Save Results to JSON
-
+```bash
 python3 reconx.py example.com --full --output results.json
+```
 
 
 
+## 📝 Output
 
-📝 Output
+**The tool prints:**
 
-The tool prints:
+* Target IP
 
-Target IP
+* HTTP headers and server info
 
-HTTP headers and server info
+* SSL certificate details (issuer, valid from/until)
 
-SSL certificate details (issuer, valid from/until)
+* Open ports
 
-Open ports
+* Found directories
 
-Found directories
-
-Optional JSON export
+* Optional JSON export
