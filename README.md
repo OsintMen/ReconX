@@ -26,6 +26,7 @@ It is designed for bug bounty hunters, pentesters, and security enthusiasts to p
 ```bash
 git clone https://github.com/OsintMen/reconx.git
 cd reconx
+```
 
 2.Install required packages
 
