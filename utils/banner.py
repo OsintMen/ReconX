@@ -12,6 +12,7 @@ def print_banner():
 ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
 {Fore.YELLOW}ReconX - Python Recon Framework
 {Fore.GREEN}Authorized testing only!
+{Fore.GREEN}Auther: OsintMen
 {Style.RESET_ALL}
 """
     print(banner)
