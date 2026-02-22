@@ -27,11 +27,11 @@ It is designed for bug bounty hunters, pentesters, and security enthusiasts to p
 git clone https://github.com/OsintMen/reconx.git
 cd reconx
 
-<h2>2.Install required packages</h2>
+2.Install required packages
 
 pip3 install -r requirements.txt
 
-🚀<h2> Usage </h2>  
+🚀 Usage
 
 Quick Scan (IP only)
 
